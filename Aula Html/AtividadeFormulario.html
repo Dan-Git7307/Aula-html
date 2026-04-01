@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cadastro</h1>
+    <form action="receber-dados.html" method="POST">
+        <label for="name">Nome</label>
+        <input type="text" id="nome" name="nome">
+        
+        <input type="radio" name="sexo" value="masculino">masculino
+        <input type="radio" name="sexo" value="feminino">feminino
+
+        <select id="sexo">
+        <option value="">selecione</option>
+        <option value="masculino">masculino</option>
+        <option value="feminino">Feminino</option>
+        <option value="outros">Outros</option>
+        </select>
+        
+        <label for="cpf">CPF</label>
+        <input type="cpf" id="CPF">
+        
+        <label for="Rg">RG</label>
+            <input type="Rg" id="RG">
+
+            <label for="data">Data:</label>
+                <input type="date" id="data" name="data" min="1900-01-01" max="2020-12-31">
+
+                <label for="ddd">DDD</label>
+                <input type="ddd">
+
+                
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" name="telefone">
+
+            <label for="ddd">DDD</label>
+                <input type="ddd">
+                
+                <label for="celular">Celular</label>
+                <input type="celular">
+
+            
+                <label for="email">E-mail</label>
+                <input type="text" id="email" name="email">
+                
+                <label for="senha">Senha</label>
+                <input type="text" id="senha" name="senha">
+                <br>
+                <label for="confirmar senha">Confirmar Senha</label>
+                <input type="text" id="confirmar senha" name="confirmar senha">
+                
+            <label for="cep">Cep</label>
+            <input type="cep">
+            <br>
+            <label for="endereco">Endereco</label>
+            <input type="Endereco">
+
+            <label for="numero">Numero</label>
+            <input type="Numero">
+
+            <label for="bairro">Bairro</label>
+            <input type="bairro">
+
+            <label for="complemento">Complemento</label>
+            <input type="complemento">
+
+            <label for="cidade">Cidade</label>
+            <input type="cidade">
+            
+            <label for="estado">Estado</label>
+            <input type="estado">
+            <select  id="estado">
+                <option value="">Selecione</option>
+                <option value="são paulo">São Paulo</option>
+                <option value="acre">Acre</option>
+                <option value="minas gerais">Minas Gerais</option>
+                <option value="amazonas">Amazonas</option>
+
+            </select>
+             <button type="submit">Enviar</button>
+        
+
+            </label>
+
+        </label>
+
+    </form>
+</body>
+</html>
